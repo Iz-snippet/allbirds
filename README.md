@@ -1,4 +1,6 @@
 All Birds Clone
+
+
 Description
 This project is a clone of the Allbirds website, where the home page closely mirrors the original Allbirds site, while the product listing pages (men's and women's), the store locator, and the checkout page have been customized. The project focuses on replicating the core user interactions and providing additional dynamic features that enhance the user experience.
 
