@@ -44,6 +44,13 @@ Open the index.html file in a web browser to view the homepage.
 
 Enjoy exploring the site and interact with the features like the dynamic cart and checkout page.
 
-Note: This project is not hosted online, but you can run it locally by following the steps above.
+Note: This project is not hosted online, but you can run it locally by following the steps above.![Screenshot 2025-04-25 194845](https://github.com/user-attachments/assets/42d437d9-0530-486f-afd5-2edfa7225459)![Screenshot 2025-04-25 201748](https://github.com/user-attachments/assets/2ecf2e52-7087-41ee-9a41-9398f04f9ba4)
+![Screenshot 2025-04-25 201605](https://github.com/user-attachments/assets/f5cb162d-4dee-4cc2-9f86-f497725d462c)
+![Screenshot 2025-04-25 200805](https://github.com/user-attachments/assets/9b81c395-3dc1-416a-95a3-aae38bdd97ac)
+![Screenshot 2025-04-25 200500](https://github.com/user-attachments/assets/84296611-25fb-45a3-89f6-bce16874ea00)
+![Screenshot 2025-04-25 194945](https://github.com/user-attachments/assets/ac411d76-ebb3-4a16-8ca9-707b5a10bcab)
+![Screenshot 2025-04-25 194932](https://github.com/user-attachments/assets/083032fb-3773-49d5-8c91-aa051f68a976)
+![Screenshot 2025-04-25 194905](https://github.com/user-attachments/assets/53a0ea1b-e19a-4722-9245-d714c32dd541)
 
-Screen shots
+
+
