@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout-confirmation.css">
+    <script src="https://kit.fontawesome.com/bfa52c41e2.js" crossorigin="anonymous"></script>
+    <title>AllBirds|Clone - Order Confirmation</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="container navigation__container">
+            <div class="nav__wrapper">
+                <div class="nav__wrapper--left">
+                    <ul class="nav__categories">
+                        <li class="nav__categories--item"><a href="men.html">Men</a></li>
+                        <li class="nav__categories--item"><a href="women.html">women</a></li>
+                        <li class="nav__categories--item"><a href="newArrivals.html">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="nav__wrapper--center">
+                    <img src="https://allbirdsclone.netlify.app/images/favsIcons/allbirds-logo.svg" alt="" class="nav__icon">
+                </div>
+                <div class="nav__wrapper--right">
+                    <ul class="nav__categories nav__categories--right">
+                        <li class="nav__categories--item"><a href="index.html">RERUN</a></li>
+                        <li class="nav__categories--item"><a href="store.html">Stores</a></li>
+                        <li class="nav__categories--item"><a href="cart.html"><i class="fas fa-shopping-cart cart-icon"></i><span class="cart-count">0</span></a></li>
+                        <li class="nav__categories--item"><a href="account.html"><img src="https://allbirdsclone.netlify.app/images/user.svg" alt="" class="nav__icon--right"></a></li>
+                        <li class="nav__categories--item"><img src="https://allbirdsclone.netlify.app/images/help.svg" alt="" class="nav__icon--right"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="confirmation-page">
+        <div class="container">
+            <div class="confirmation-container">
+                <div class="confirmation-header">
+                    <div class="confetti-container" id="confetti-container"></div>
+                    <h1>Thank You for Your Order!</h1>
+                    <p class="order-number">Order #<span id="order-number">12345</span></p>
+                </div>
+
+                <div class="confirmation-details">
+                    <div class="confirmation-section">
+                        <h2>Order Confirmation</h2>
+                        <p>We've received your order and will begin processing it right away. You'll receive an email confirmation shortly.</p>
+                    </div>
+
+                    <div class="confirmation-section">
+                        <h2>Shipping Information</h2>
+                        <div class="shipping-address">
+                            <p><strong>John Smith</strong></p>
+                            <p>123 Main Street</p>
+                            <p>Apt 4B</p>
+                            <p>San Francisco, CA 94105</p>
+                            <p>United States</p>
+                        </div>
+                        <div class="delivery-info">
+                            <p><strong>Estimated Delivery:</strong> <span id="delivery-date">June 15, 2023</span></p>
+                            <p><strong>Shipping Method:</strong> Standard Shipping (3-5 business days)</p>
+                        </div>
+                    </div>
+
+                    <div class="confirmation-section">
+                        <h2>Order Summary</h2>
+                        <div class="order-items" id="order-items">
+                            <!-- Order items will be dynamically added here -->
+                        </div>
+                        <div class="order-summary">
+                            <div class="summary-row">
+                                <span>Subtotal</span>
+                                <span id="subtotal">$0.00</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Shipping</span>
+                                <span>$5.00</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Total</span>
+                                <span id="total">$0.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="confirmation-section">
+                        <h2>Payment Information</h2>
+                        <div class="payment-info">
+                            <p><strong>Payment Method:</strong> Credit Card ending in 1234</p>
+                            <p><strong>Billing Address:</strong> Same as shipping address</p>
+                        </div>
+                    </div>
+
+                    <div class="confirmation-actions">
+                        <a href="index.html" class="btn-primary">Continue Shopping</a>
+                        <a href="#" class="btn-secondary">Track Your Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__titles">
+                <div class="footer__title">
+                    <h3 class="footer__heading">HELP</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item">help@allbirds.com</li>
+                        <li class="footer__list--item">Returns/Exchanges</li>
+                        <li class="footer__list--item">FAQ/Contact Us</li>
+                        <li class="footer__list--item">Afterpay</li>
+                    </ul>
+                </div>
+                <div class="footer__title">
+                    <h3 class="footer__heading">SHOP</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item">Men's Shoes</li>
+                        <li class="footer__list--item">Women's Shoes</li>
+                        <li class="footer__list--item">Men's Apparel</li>
+                        <li class="footer__list--item">Men's Apparel</li>
+                        <li class="footer__list--item">Socks</li>
+                    </ul>
+                </div>
+                <div class="footer__title">
+                    <h3 class="footer__heading">COMPANY</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list--item">Our Stores</li>
+                        <li class="footer__list--item">Our Story</li>
+                        <li class="footer__list--item">Our Materials</li>
+                        <li class="footer__list--item">Sustainability</li>
+                        <li class="footer__list--item">California Transparency Acts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__footing">
+                <div class="footer__box box--1">
+                    <h3 class="footer__heading">FOLLOW THE FLOCK</h3>
+                    <p class="footer__text">Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have
+                        cute sheep, too.
+                        #weareallbirds</p>
+                    <div class="footer__social">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-pinterest-p"></i>                    
+                    </div>
+                </div>
+                <div class="footer__box box--2">
+                    <img src="https://allbirdsclone.netlify.app/images/footer/icon-b-corp.webp" alt="comp logo">
+                </div>
+                <div class="footer__box box--3 ">
+                    <div class="footer__flags">
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-us.svg" alt="" class="footer__flag--pic">
+                        </div>
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-uk.svg" alt="" class="footer__flag--pic">
+                        </div>
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-nz.svg" alt="" class="footer__flag--pic">
+                        </div>
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-cn.svg" alt="" class="footer__flag--pic">
+                        </div>
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-au.svg" alt="" class="footer__flag--pic">
+                        </div>
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/flag-ca.svg" alt="" class="footer__flag--pic">
+                        </div> 
+                        <div class="footer__flag">
+                            <img src="https://allbirdsclone.netlify.app/images/footer/method-draw-image.svg" alt="" class="footer__flag--pic">
+                        </div>             
+                    </div>
+
+                    <div class="footer__select">
+                        <label for="langugage" class="footer__lang--label">Select Language</label>
+                        <select name="language" id="language">
+                            <option value="english">English</option>
+                            <option value="french">Francais</option>
+                            <option value="dutch">Deutch</option>
+                            <option value="nethelands">Nederlands</option>
+                            <option value="italian">Italiano</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__exit">
+                <p class="footer__text">© 2021 Allbirds, B.V. All Rights Reserved. Terms, Privacy and Cookies & Accessibility</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/checkout-confirmation.js"></script>
+</body>
+</html> 

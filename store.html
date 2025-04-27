@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allbirds Stores</title>
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+<body>
+    <div class="stores-page">
+        <div class="stores-header">
+            <h1>Find a Store</h1>
+            <div class="store-search">
+                <input type="text" class="search-input" placeholder="Search by city or address">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="map-toggle">
+                <i class="fas fa-map-marked-alt"></i> Show Map
+            </button>
+        </div>
+        
+        <div id="store-map" style="display: none;"></div>
+        
+        <div class="store-grid">
+            <div class="store-region">
+                <h2>United States</h2>
+                <div class="store-card" data-lat="37.7790" data-lng="-122.4177">
+                    <h3>San Francisco</h3>
+                    <p class="store-address">123 Market Street, San Francisco, CA 94105</p>
+                    <a href="#" class="store-link">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/store.js"></script>
+</body>
+</html> 
